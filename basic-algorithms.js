@@ -77,21 +77,21 @@ alert(result2);
 // 1.3 Muestra mediante un alert el resto de dividir 15 por 9.
 
 let result3 = 15 / 9;
-alert(result);
+alert(result3);
 
 // 1.4 Usa el correcto operador de asignación que resultará en x = 15, 
 // teniendo dos variables:
-var y = 10;
-var z = 5;
+var y3 = 10;
+var z3 = 5;
 
-var x = y + x;
-console.log(x);
+var x3 = x3 + x3;
+console.log(x3);
 
 // 1.5 Usa el correcto operador de asignación que resultará en x = 50,
 // teniendo dos variables 
-y = 10;
-z = 5;
+var y4 = 10;
+var z4 = 5;
 
-x = y * z;
-console.log(x);
+var x4 = y4 * z4;
+console.log(x4);
 
