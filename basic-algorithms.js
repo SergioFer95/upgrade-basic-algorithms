@@ -66,7 +66,7 @@ console.log(car1, car2);
 // 1.1 Multiplica 10 por 5 y muestra el resultado mediante alert.
 
 let result1 = 10 * 5;
-alert(result);
+alert(result1);
 
 // 1.2 Divide 10 por 2 y muestra el resultado en un alert.
 
@@ -84,7 +84,7 @@ alert(result3);
 var y3 = 10;
 var z3 = 5;
 
-var x3 = x3 + x3;
+var x3 = y3 + z3;
 console.log(x3);
 
 // 1.5 Usa el correcto operador de asignación que resultará en x = 50,
