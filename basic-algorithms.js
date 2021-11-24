@@ -100,21 +100,42 @@ console.log(x4);
 // 1.1 Consigue el valor "HULK" del array de cars y muestralo por consola.
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
+console.log(avengers[0]);
+
 // 1.2 Cambia el primer elemento de avengers a "IRONMAN"
 // avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
+avengers[0] = "IRONMAN";
+
+console.log(avengers);
+
 // 1.3 Alert numero de elementos en el array usando la propiedad correcta de Array.
-// avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+// avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"]; 
+
+alert("Número de elementos en el Array Avengers" + avengers.length);
 
 // 1.4 Añade 2 elementos al array: "Morty" y "Summer". 
 // Muestra en consola el último personaje del array
-// const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+rickAndMortyCharacters.push("Morty" + "Summer");
 
 // 1.5 Elimina el último elemento del array y muestra el primero y el último por consola.
 // rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
-// 1.6 Elimina el segundo elemento del array y muestra el array por consola.
-// rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters.pop();
+console.log(rickAndMortyCharacters);
+
+// rickAndMortyCharacters.shift() sería para eleminar el primer elemento.
+// Con rickAndMortyCharacters.unshift() agregamos un elemento al primer puesto del array.
+// Con rickAndMortyCharacters.reverse() revierte el orden del array pasando a ser el último, el primero. 
+// Con rickAndMortyCharacters.sort() lo que hacemos es que, solo aplica en los string, los ordena por orden alfabético.
+
+// // 1.6 Elimina el segundo elemento del array y muestra el array por consola.
+// // rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+rickAndMortyCharacters.pop([2]);
+console.log(rickAndMortyCharacters);
 
 
 
@@ -159,6 +180,10 @@ if (number2 / 2 == number1 || number1 / 5 == number3) {
 // ** ITERACIÓN #6: Bucles**
 // 1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
 
+for(var i = 0; i <= 9; i++){
+    console.log(i);
+}
+
 // 1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
 // cuando el resto del numero dividido entre 2 sea 0.
 
@@ -166,3 +191,16 @@ if (number2 / 2 == number1 || number1 / 5 == number3) {
 // Este bucle empieza en 0 y termina en 10. 
 // Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle 
 // y cambia el mensaje en la última vuelta a 'Dormido!'.
+
+
+// var s = 0;
+
+// while(s <= 10){
+//     s++;
+//     console.log("Intentando dormir con la ovejita " + s);
+
+//     if(i === 10){
+//         console.log("¡Por fin me he dormido en la ovejita " + s + " !");
+//     }
+// }
+
