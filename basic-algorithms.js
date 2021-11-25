@@ -126,11 +126,6 @@ rickAndMortyCharacters.push("Morty" + "Summer");
 rickAndMortyCharacters.pop();
 console.log(rickAndMortyCharacters);
 
-// rickAndMortyCharacters.shift() sería para eleminar el primer elemento.
-// Con rickAndMortyCharacters.unshift() agregamos un elemento al primer puesto del array.
-// Con rickAndMortyCharacters.reverse() revierte el orden del array pasando a ser el último, el primero. 
-// Con rickAndMortyCharacters.sort() lo que hacemos es que, solo aplica en los string, los ordena por orden alfabético.
-
 // // 1.6 Elimina el segundo elemento del array y muestra el array por consola.
 // // rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
@@ -187,20 +182,22 @@ for(var i = 0; i <= 9; i++){
 // 1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
 // cuando el resto del numero dividido entre 2 sea 0.
 
+for(var e = 0; e <= 9; e++){
+    if(e/2 == 0){
+        console.log(e);
+    }
+}
+
 // 1.3 Crea un bucle para conseguir dormir contando ovejas. 
 // Este bucle empieza en 0 y termina en 10. 
 // Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle 
 // y cambia el mensaje en la última vuelta a 'Dormido!'.
 
+for(i = 0; i <= 10; i++){
 
-// var s = 0;
-
-// while(s <= 10){
-//     s++;
-//     console.log("Intentando dormir con la ovejita " + s);
-
-//     if(i === 10){
-//         console.log("¡Por fin me he dormido en la ovejita " + s + " !");
-//     }
-// }
-
+    if(i <= 9){
+        console.log("Intentando dormir con la ovejita " + i);
+    }else{
+        console.log("¡Por fin he podido dormir!");
+    }
+}
